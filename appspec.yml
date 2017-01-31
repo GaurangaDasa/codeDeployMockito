@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /MockitoPOC.war
+  - source: /target/MockitoPOC.war
     destination: /opt
 hooks:
   BeforeInstall:
